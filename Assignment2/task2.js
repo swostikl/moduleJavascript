@@ -1,5 +1,5 @@
 'use strict'
-const name = prompt("Enter your name : ")
+const name = prompt("Enter your name : ");
 {
-    alert('Hello ' + name + '!')
+    alert('Hello, ' + name + '!');
 }

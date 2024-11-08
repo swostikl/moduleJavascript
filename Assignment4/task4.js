@@ -10,9 +10,9 @@ if (room === 1) {
         if (room === 3) {
             alert(name + ' you are Hufflepuff.');
         } else {
-            if (room===4){
+            if (room === 4) {
 
-            alert(name + ' you are Ravenclaw.');
+                alert(name + ' you are Ravenclaw.');
             }
         }
     }
