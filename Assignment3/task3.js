@@ -10,5 +10,5 @@ const sum = a + b + c;
 const product = a * b * c;
 const average = (a + b + c) / 3;
 {
-    alert(`Sum: ${sum}, Product: ${product} , Average:${average}`);
+    document.write(`Sum: ${sum}, Product: ${product} , Average:${average}`);
 }
