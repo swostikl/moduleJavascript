@@ -1,0 +1,34 @@
+<!--Write a program that asks for the names of six dogs. The program prints dog names to unordered list <ul> in reverse
+alphabetical order. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    'use strict'
+    const dogNames=[]
+    for (let i=0; i<6; i++){
+        let names=prompt(`Enter a dog name ${i + 1}`);
+        if(names){
+            dogNames.push(names)
+        }else{
+            alert("Invalid input, enter correct input");
+            i--;
+        }
+    }
+
+// sorting names in reverse alphabetical order
+dogNames.sort().reverse()
+    let output="<ul>"
+    for (let names of dogNames) {
+        output +=`<li>${names}</li>`;
+    }
+    output+="<ul";
+    document.body.innerHTML=output;
+</script>
+
+</body>
+</html>
