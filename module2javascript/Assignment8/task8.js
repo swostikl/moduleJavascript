@@ -1,10 +1,10 @@
-function concat(arr) {
+function concat(array) {
     let result = "";
-    for (let i = 0; i < arr.length; i++) {
-        result += arr[i];
+    for (let i = 0; i < array.length; i++) {
+        result += array[i];
     }
     return result;
 }
 const names = ["Johnny", "DeeDee", "Joey", "Marky"];
-const String = concat(names);
-document.body.innerHTML = <p>${String}</p>;
+const concatenatedString = concat(names);
+document.body.innerHTML =`<p> ${concatenatedString} </p>`;
