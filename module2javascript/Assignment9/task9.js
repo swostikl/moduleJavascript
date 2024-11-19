@@ -1,8 +1,8 @@
-function even(arr) {
+function even(array) {
     let evenNumbers = [];
-    for (let i = 0; i < arr.length; i++) {
-        if (arr[i] % 2 === 0) {
-            evenNumbers.push(arr[i]);
+    for (let i = 0; i < array.length; i++) {
+        if (array[i] % 2 === 0) {
+            evenNumbers.push(array[i]);
         }
     }
     return evenNumbers;

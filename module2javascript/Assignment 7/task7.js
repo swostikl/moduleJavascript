@@ -17,5 +17,5 @@ const sides = parseInt(prompt("Enter the number of sides on the dice:"));
 if (sides > 0) {
     rollMax(sides);
 } else {
-    alert("Please enter a valid positive number for the number of sides.");
+    alert("Please enter a valid number for the number of sides.");
 }
