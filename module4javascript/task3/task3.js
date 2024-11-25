@@ -1,6 +1,7 @@
 'use strict'
 document.addEventListener("DOMContentLoaded", () => {
     const form = document.getElementById("formValue");
+    const results=document.getElementById("results");
 
     form.addEventListener("submit", async (event) => {
         event.preventDefault(); // Stop the default form submission
